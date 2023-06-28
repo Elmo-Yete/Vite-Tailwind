@@ -5,10 +5,10 @@ import CardsData from "./data/CardsData";
 function App() {
   return (
     <>
-      <main className=" bg-vite-back h-screen">
-        <article className="ms-96 w-[76rem] ">
-          <div className="flex px-12 pt-20 pb-12">
-            <div>
+      <main className="flex bg-vite-back h-screen w-screen">
+        <article>
+          <div className="flex flex-row">
+            <div className="ms-[14rem] ">
               <h1 className="text-transparent font-bold text-7xl bg-gradient-to-r from-blue-400  to-purple-600 bg-clip-text">
                 Vite
               </h1>
@@ -20,20 +20,20 @@ function App() {
                 up with you.
               </p>
             </div>
-            <div className="flex w-[35rem] h-[21.75rem] ">
+            <div>
               <img
                 src="../public/vite.svg"
                 alt="Vite logo"
-                className="w-100% "
+                className="w-[50rem] h-[21.75rem]"
               />
             </div>
           </div>
-          <div className="flex font-bold text-vite-text gap-6 ps-12">
+          <div className="flex font-bold text-vite-text gap-5 ms-[14rem]">
             <Buttons text="Get Started" />
             <Buttons text="Why Vite?" />
             <Buttons text="View on GitHub" />
           </div>
-          <div className="flex gap-3 flex-wrap justify-center pt-10 text-vite-text w-[96rem] ">
+          <div className="flex gap-3 flex-wrap justify-center pt-10 text-vite-text">
             {CardsData.map((card, index) => {
               return (
                 <Cards
