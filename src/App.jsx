@@ -1,6 +1,7 @@
 import Buttons from "./components/Buttons";
 import Cards from "./components/Cards";
 import CardsData from "./data/CardsData";
+import image from "./assets/vite.svg";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
             </div>
             <div>
               <img
-                src="../src/assets/vite.svg"
+                src={image}
                 alt="Vite logo"
                 className="w-[50rem] h-[21.75rem]"
               />
