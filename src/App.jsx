@@ -22,7 +22,7 @@ function App() {
             </div>
             <div>
               <img
-                src="../public/vite.svg"
+                src="../src/assets/vite.svg"
                 alt="Vite logo"
                 className="w-[50rem] h-[21.75rem]"
               />
